@@ -1,0 +1,172 @@
+@media screen and (max-width: 600px) {
+    .modal-dialog {
+        max-width: 800px;
+        margin: 1.75rem auto;
+    }
+}
+.contenedor_loader {
+
+    transition: all 2s;
+
+}
+
+.modal-dialog.modal-notify.modal-info .badge,
+.modal-dialog.modal-notify.modal-info .modal-header {
+    background-color: #1f3558;
+    border-radius: 10px 10px 0 0;
+}
+
+.modal-dialog .modal-content {
+    -webkit-box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+    border: 0;
+    -webkit-border-radius: 0.125rem;
+    border-radius: 10px;
+}
+
+/* a,
+a.disabled:hover,
+a:disabled:hover {
+    color: #313896;
+}
+
+.md-form input[type="text"]:focus:not([readonly]),
+.md-form input[type="password"]:focus:not([readonly]) {
+    border-bottom: 1px solid #fb5364;
+    box-shadow: 0 1px 0 0 #fb5364;
+}
+
+.md-form input[type="text"]:focus:not([readonly])+label,
+.md-form input[type="password"]:focus:not([readonly])+label {
+    color: #fb5364;
+}
+
+.md-form .form-control {
+    color: #fff;
+} */
+
+.wrap,
+.wrap2 {
+    width: 75px;
+    white-space: pre-wrap;
+    /* CSS3 */
+    white-space: -moz-pre-wrap;
+    /* Firefox */
+    white-space: -pre-wrap;
+    /* Opera <7 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+    /* IE */
+   /* font-size: 8pt;*/
+}
+
+.wrap {
+    height: auto;
+    width: auto;
+}
+
+.wrap2 {
+    border: 1px solid blue;
+    height: 100px;
+    overflow: auto;
+    width: 100px;
+}
+
+    .div-img-test {
+        display: inline-block;
+        
+        padding: 5px
+    }
+
+    .demo-text {
+        clear: left;
+        text-align: right;
+        vertical-align: middle;
+        line-height: 25px;
+        font-size: 15pt;
+    }
+
+    .glyphicon {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .img-info {
+        width: 25px;
+        cursor: pointer;
+    }
+
+    .button-info {
+        background-color: transparent;
+        border: none;
+    }
+
+    /* Contenedor del popup */
+    .popup {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    /* pop-up actual */
+    .popup .popuptext {
+        visibility: hidden;
+        width: 189px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 1;
+        /* bottom: 125%; */
+        /* left: 50%; */
+        margin-left: 14px;
+        /* margin-bottom: 180px; */
+        margin-top: -4px;
+    }
+
+
+    /* Muestra del Pop-up*/
+
+
+    .popup .popuptext::after {
+        content: "";
+        position: absolute;
+        top: 13px;
+        left: -4px;
+        margin-left: -6px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent #555 transparent transparent;
+    }
+
+    /* Cambio para mostrar/ocultar el contenedor del pop-up */
+    .popup .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s
+    }
+
+    /* Animación del pop-up */
+    @-webkit-keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+

@@ -1,0 +1,6 @@
+.contenedor_loader {
+    transition: all 2s;
+}
+#mostrar_todo{
+    cursor: pointer;
+}

@@ -1,0 +1,1 @@
+Para hacer push a github de carpetas sin archivos, de hecho deben llevar al menos un archivo, en este caso se puede poner un README justo como este mismo, y ya :)
